@@ -18,7 +18,16 @@ export default function App() {
   return (
     <div className="bg-yellow-50 w-full min-h-screen">
       <h1 className="text-4xl font-semibold font-serif pt-20 pl-6">Sierra Howe</h1>
+      <div className="flex items-center">
+        <img src="/underline.png" className="w-60 h-32 pr-3 pl-6 -mt-9"/>
+        <></>
+      </div>
 
+      <div>
+        <p className="text-lg leading-relaxed pl-6 pr-6 pt-6 -mt-6 font-serif">
+          A fifth-year Computer Science student at the University of New Brunwick. I am passionate about combining technical skills with creative problem-solving to deliver innovative solutions.
+        </p>
+      </div>
     </div>
   )
 
